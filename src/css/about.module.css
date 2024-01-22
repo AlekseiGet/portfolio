@@ -1,0 +1,38 @@
+html,
+body,
+.container_fon,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+    height: 100%;
+}
+
+section {
+    height: 100vh;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+.fbsection1 {
+    background-image: url(../img/photo_2022-08-11_21-21-17.jpg);
+}
+
+.fbsection2 {
+    background-image: url(../img/photo_2022-09-03_07-51-43.jpg);
+}
+
+.fbsection3 {
+    background-image: url(../img/photo_2023-03-15_09-49-51.jpg);
+}
+
+.fbsection4 {
+    background-image: url(../img/photo_2022-08-11_21-21-17.jpg);
+}
+
+.fbsection5 {
+    background-image: url(../img/photo_2022-09-03_07-51-43.jpg);
+}

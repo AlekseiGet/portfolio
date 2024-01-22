@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, createContext } from "react";
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./Router/AppRouter";
+import './css/style.css';
+
+export const Themes = createContext();
+
 
 function App() {
+  const [choiceTheme, setChoiceTheme] = useState(false);
+  const [theme, setTheme] = useState("1");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Themes.Provider value={{value:[choiceTheme, setChoiceTheme],value2:[theme, setTheme]}}>
+    <BrowserRouter>
+       <AppRouter/>
+    </BrowserRouter>
+    </Themes.Provider>
   );
 }
 

@@ -1,0 +1,27 @@
+.номе_reviews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_reviews_body {
+    width: 70%;
+    min-width: 320px;
+    padding-top: 50px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.home_reviews_body_item {
+    min-width: 25%;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.home_reviews_body_item_video {
+    text-align: center;
+}
+

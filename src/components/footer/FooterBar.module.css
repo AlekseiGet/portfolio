@@ -1,0 +1,125 @@
+.conteiner_footer {
+    background: #e7e3e3;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.to_Top {
+    position: fixed;
+    background-color: #673ab7;
+    left: 20px;
+    bottom: 250px;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+ transition-duration: 2s;
+}
+
+.to_Top::before {
+    content: "";
+    text-align: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 17V4M3 10l7-7 7 7'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+.social_network {
+    flex: 1 0 50%;
+   
+}
+
+.title{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.social_block {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.social_network_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.social_network_icon img {
+    width: 100%;
+}
+
+.vk {
+    background: rgb(69, 56, 252);
+}
+
+.vk img {
+    -o-object-position: 0px -11px;
+    object-position: 0px -135px;
+}
+
+.ok {
+    background: rgb(223, 172, 79);
+}
+
+.ok img {
+    -o-object-position: 0px -324px;
+    object-position: 0px -211px;
+}
+
+.tg {
+    background: rgb(9, 199, 247);
+}
+
+.tg img {
+    -o-object-position: 0px -265px;
+    object-position: 0px -243px;
+}
+
+.wa {
+    background: rgb(9, 199, 247);
+}
+
+.wa img {
+    -o-object-position: 0px -3px;
+    object-position: 0px 3px;
+}
+
+.info_for {
+
+    flex: 1 0 50%;
+    margin-bottom: 30px;
+}
+
+.info_for li{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.warning_text{
+   display: block;
+   text-align: center;
+   font-size: 22px;
+   margin-bottom: 50px ;
+}
+
+.footer_bottom{
+  
+}

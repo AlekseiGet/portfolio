@@ -1,0 +1,73 @@
+
+
+.mentor_body{
+    background-color: #f2f0ed;
+}
+    
+.mentor_content{
+    padding: 90px 0px;
+   
+}
+
+.mentor_content_title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.mentor_content_body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.mentor_content_body_image{
+    background-image: url(../../img/photo_2022-08-11_21-21-17.jpg);
+    background-position: center center;
+    background-size:auto 140%;
+    background-repeat: no-repeat;
+    flex: 1 0 50%;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.mentor_content_body_text {
+    flex: 1 0 50%;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.mentor_content_body_text_title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+.mentor_content_body_text_sudtitle{
+     line-height: 22px;
+     font-size: 18px;
+     text-align: center;
+     width: 100%;
+     box-sizing: content-box;
+     margin-top: 20px;
+}
+
+.mentor_content_body_text_content span{
+    font-family: 'Caveat';
+        font-style: normal;
+        font-display: swap;
+     font-size: 18px;
+     line-height: 25px;
+     color: #4d4d4d;
+     margin-top: 20px;
+      width: 100%;
+
+}
+
+.mentor_content_body_text_link{
+    margin-top: 20px;
+}

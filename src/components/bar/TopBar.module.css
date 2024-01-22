@@ -1,0 +1,192 @@
+.conteiner__tool {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+
+}
+.conteiner__tool_shadow{
+    transition-duration: 0.5s;
+    margin:-1px auto;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    z-index:1;
+    box-shadow: 0px 0px 82px 120px rgba(87, 104, 142, 1);   
+}
+
+.conteiner__tool_shell{
+    max-width: 1460px;
+    margin:auto;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index:1;
+    background: #57688e;
+    border-radius:0px 0px 20px 20px;
+    box-shadow: 0px 5px 15px 4px rgba(87, 104, 142, 1);
+    transition-duration: 2.5s;
+    
+}
+.tool_bar_name{
+    width: content;
+    color: hwb(0 98% 2%);
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: max(1.5em, 1.5vw);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
+.tool_bar {
+    max-width: 100%;
+    height: 100%;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.tool_bar_menu_git{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.bar_icon { 
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.tool_bar_menu {
+    min-width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    
+}
+
+.tool_bar_menu a{
+    color: hwb(0 98% 2%);
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    box-shadow: -15px 15px 30px -5px #000000 ;
+}
+
+.bar_tool_burger
+.bar_tool_active{
+    display: none;
+}
+
+@media (max-width: 767px) {
+.tool_bar {
+    height: 100%;
+    margin:0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;  
+}
+
+.tool_bar_menu {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    z-index: 2;
+    background: -webkit-linear-gradient(45deg, #3e2eea 0%, #59d5f7 68%);;
+    width: 50%;
+    min-width: 200px;
+    min-height: 100vh;
+    padding: 200px 0px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition-duration: 0.5s;
+    text-shadow: 3px 3px 10px rgba(104, 29, 215, 0.31); 
+}
+
+.tool_bar_menu_active {
+    right: 0px;
+    transition-duration: 0.5s;
+}
+
+.bar_tool_burger {
+    display: block;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    top: 25px;
+    right: -7px;
+    z-index: 2;
+    border-radius: 2px;
+    background: rgb(68, 65, 65);
+    transition-duration: 0.5s;
+}
+
+.bar_tool_burger::after {
+    content: "";
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    z-index: 2;
+    border-radius: 2px;
+    background: rgb(68, 65, 65);
+    transition-duration: 0.5s;
+}
+
+.bar_tool_burger::before {
+    content: "";
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 2;
+    border-radius: 2px;
+    background: rgb(68, 65, 65);
+    transition-duration: 0.5s;
+}
+
+  .bar_tool_active {     
+      width:  45px;
+      height: 45px;
+      position: absolute;
+      top: 5px;
+      right: -10px;
+      z-index: 2;
+      background: rgba(41, 31, 31, 0);
+      transition-duration: 0.5s;
+  }
+
+  .bar_tool_active:after {
+      content: "";
+      width: 40px;
+      height: 4px;
+      position: absolute;
+      top: 20px;
+      left: 2px;
+      border-radius: 2px;
+      transform: rotate(-45deg);
+      background: rgb(8, 8, 8);
+      transition-duration: 0.5s;
+  }
+
+  .bar_tool_active:before {  
+      content: "";
+      width: 40px; 
+      height: 5px;
+      position: absolute; 
+      top: 20px;
+      left: 2px;
+      border-radius: 2px;
+      transform: rotate(45deg);
+      background: rgb(17, 17, 17);
+      transition-duration: 0.5s;
+  }
+
+}
