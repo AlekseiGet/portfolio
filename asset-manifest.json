@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.54fd5cb2.css",
-    "main.js": "/portfolio/static/js/main.4e6a3fcb.js",
+    "main.css": "/portfolio/static/css/main.58317f14.css",
+    "main.js": "/portfolio/static/js/main.caa55c57.js",
     "static/media/yoga-light_drb.gif": "/portfolio/static/media/yoga-light_drb.9165c248038e97ecba54.gif",
     "static/media/matrix.jpg": "/portfolio/static/media/matrix.81648f3c3cfcdfcd2297.jpg",
     "static/media/photo_2022-11-01_20-21-58.jpg": "/portfolio/static/media/photo_2022-11-01_20-21-58.f2fcedfa26de252200fe.jpg",
@@ -81,11 +81,11 @@
     "static/media/luna51.png": "/portfolio/static/media/luna51.4aed3a55707ca13b05f5.png",
     "static/media/32228.svg": "/portfolio/static/media/32228.4406feb1712a61ccdfd2452f8fa76c25.svg",
     "index.html": "/portfolio/index.html",
-    "main.54fd5cb2.css.map": "/portfolio/static/css/main.54fd5cb2.css.map",
-    "main.4e6a3fcb.js.map": "/portfolio/static/js/main.4e6a3fcb.js.map"
+    "main.58317f14.css.map": "/portfolio/static/css/main.58317f14.css.map",
+    "main.caa55c57.js.map": "/portfolio/static/js/main.caa55c57.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fd5cb2.css",
-    "static/js/main.4e6a3fcb.js"
+    "static/css/main.58317f14.css",
+    "static/js/main.caa55c57.js"
   ]
 }
