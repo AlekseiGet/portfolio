@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import errrorImage from '../img/error.jpg'
 import SliderFon from '../components/sliderFon/SliderFon';
 

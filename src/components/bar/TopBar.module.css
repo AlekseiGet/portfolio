@@ -3,7 +3,6 @@
    height: 100%;
    position: absolute;
    top: 0px;
-
 }
 .conteiner__tool_shadow{
     transition-duration: 0.5s;
@@ -24,7 +23,7 @@
     z-index:1;
     background: #57688e;
     border-radius:0px 0px 20px 20px;
-    box-shadow: 0px 5px 15px 4px rgba(87, 104, 142, 1);
+    box-shadow: 0px 5px 15px 0px rgba(87, 104, 142, 1);
     transition-duration: 2.5s;
     
 }
@@ -89,6 +88,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;  
+   
 }
 
 .tool_bar_menu {
@@ -119,11 +119,12 @@
     height: 4px;
     position: absolute;
     top: 25px;
-    right: -7px;
+    right: -0px;
     z-index: 2;
     border-radius: 2px;
     background: rgb(68, 65, 65);
     transition-duration: 0.5s;
+
 }
 
 .bar_tool_burger::after {

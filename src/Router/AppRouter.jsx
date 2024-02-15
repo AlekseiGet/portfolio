@@ -10,7 +10,7 @@ const AppRouter = () => {
     return (
       
         <div className='wrapper'>
-            <TopBar />           
+            <TopBar />          
             <Routes>{
                     publicRoutes.map(rout =>
                         <Route

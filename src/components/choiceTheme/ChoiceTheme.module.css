@@ -1,5 +1,5 @@
 .choiceTheme{
-    min-width: 40px;
+    width: 40px;
     height: 40px;
     margin-right: 50px;
     position: relative;
@@ -55,3 +55,23 @@
     transition-duration: 2.5s;
 }
 
+@media (max-width: 767px) {
+    .choiceTheme{
+        width: 30px;
+        height: 30px;
+        margin-right: 50px;
+        position: relative;
+        top: 0px;
+        border-radius: 50%;
+        box-shadow: -15px 15px 30px -5px #000000 ;
+    }
+
+    .choice_button{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #e6e0e0;
+     
+    }
+
+}

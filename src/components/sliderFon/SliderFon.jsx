@@ -1,25 +1,27 @@
 import React, { useEffect, useState, useRef } from 'react';
 import cl from './sliderFon.module.css';
-import background from "../../img/photo_2022-08-11_21-21-17.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css"; 
 
 const SliderFon = (props) => {
-  const [ text, setText]= useState(props.text);
+  const [ text, ]= useState(props.text);
   const [ opacity, setOpacity] = useState("1");
-  const [newHeight, setNewHeight] = useState("100%");
+  const [newHeight, setNewHeight] = useState();
+  const [height, setHeight] = useState();
+  const [anim, setAnim] = useState(0);
   const listRef = useRef();
 
-useEffect(() => {
-  getListSize(0)
-}, []);
+    useEffect(() => {
+      const listTot = listRef.current.offsetTop;
+      setHeight(listTot);
+      setNewHeight(listTot);
+      Aos.init({ duration: 2500  });
+      
+  }, [])
 
-useEffect(() => {
-        Aos.init({ duration: 2500  });
-    }, [])
+  setTimeout( ()=> setAnim(1), 2500)
 
 const getListSize = (s) => {
-  const height = listRef.current.offsetTop;
   if (height!= null) {
     const sum = height-s;
     setNewHeight(sum);
@@ -31,30 +33,32 @@ const getListSize = (s) => {
 const btnUp = () => {
   window.addEventListener('scroll', () => {
    const scrollY = window.scrollY ;
-     if (scrollY > 10) {
+     if (scrollY > 0) {
        getListSize(scrollY)
      }               
-   });        
+   });       
   }
 btnUp()
    
     return (
         <div >
             <div className={cl.cbp_fbscroller}>               
-                <section  style={{ backgroundImage: `url(${props.image})` }} className={cl.fbsection1} >     
-                    <div style={{ alignItems: props.position, height:`${newHeight}px`, opacity: opacity }} className={cl.content_box}>
+                <section  style={{ backgroundImage: `url(${props.image})` }} className={cl.fbsection1} > 
+                  <div className={cl.fbsection1_conteiner}>
+                     <div style={{ height:`${newHeight}px`, opacity: opacity }} className={cl.content_box}>
                         <div className={[cl.cursor, cl.typewriter_animation].join(" ")} >
                            <h2 >{props.title}</h2>
                         </div>                    
-                        <span data-aos="fade-up"  data-aos-delay = "1800" data-aos-once="true" style={{fontSize:"2em", fontWeight: '800'}}  >{text[0]}</span>
-                        <span  data-aos="fade-left" data-aos-delay = "2800" data-aos-once="true" >{text[1]}</span>                                                                 
-                     </div>                   
-                    <div className={cl.fbsection1_portfolio} >
-                       <h2 data-aos="zoom-in" >PORTFOLIO</h2> 
+                        <h4 data-aos="fade-up"  data-aos-delay = "1800" data-aos-once="true" >{text[0]}</h4>
+                        <span style={{transitionDuration: "2.5s", opacity: anim}} >{text[1]}</span>                                                                 
                      </div> 
-                     <div ref={listRef} ></div>                                     
-                </section>                
+                     <div className={cl.fbsection1_portfolio} >
+                        <h2 data-aos="zoom-in" >PORTFOLIO  </h2> 
+                     </div> 
+                  </div>                                                                
+                </section>                                       
             </div>
+            <div ref={listRef} style={{width: "100%"}}/> 
         </div>
     );
 };
