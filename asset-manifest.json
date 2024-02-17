@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b16dbca8.css",
-    "main.js": "/portfolio/static/js/main.ff7093bf.js",
+    "main.css": "/portfolio/static/css/main.95ae661d.css",
+    "main.js": "/portfolio/static/js/main.5aad791a.js",
     "static/media/yoga-light_drb.gif": "/portfolio/static/media/yoga-light_drb.9165c248038e97ecba54.gif",
     "static/media/matrix.jpg": "/portfolio/static/media/matrix.81648f3c3cfcdfcd2297.jpg",
     "static/media/photo_2022-11-01_20-21-58.jpg": "/portfolio/static/media/photo_2022-11-01_20-21-58.f2fcedfa26de252200fe.jpg",
@@ -14,7 +14,6 @@
     "static/media/photo_2022-07-15_07-41-26.jpg": "/portfolio/static/media/photo_2022-07-15_07-41-26.99c685a76cca428f3b0d.jpg",
     "static/media/photo_2022-06-22_15-31-26.jpg": "/portfolio/static/media/photo_2022-06-22_15-31-26.9291d9b4fbb052c1ad2a.jpg",
     "static/media/photo_2022-06-09_14-07-28.jpg": "/portfolio/static/media/photo_2022-06-09_14-07-28.cca9148a1ec94e557df6.jpg",
-    "static/media/photo_2023-03-15_09-49-51.jpg": "/portfolio/static/media/photo_2023-03-15_09-49-51.5b819c647269b8eb016a.jpg",
     "static/media/photo_2023-03-15_09-49-52.jpg": "/portfolio/static/media/photo_2023-03-15_09-49-52.5b819c647269b8eb016a.jpg",
     "static/media/photo_2022-11-09_08-01-28.jpg": "/portfolio/static/media/photo_2022-11-09_08-01-28.3381ecf95bfb7c7ac2d8.jpg",
     "static/media/photo_2022-06-07_12-40-44.jpg": "/portfolio/static/media/photo_2022-06-07_12-40-44.0e78573c0363b14e74d9.jpg",
@@ -81,11 +80,11 @@
     "static/media/luna51.png": "/portfolio/static/media/luna51.4aed3a55707ca13b05f5.png",
     "static/media/32228.svg": "/portfolio/static/media/32228.4406feb1712a61ccdfd2452f8fa76c25.svg",
     "index.html": "/portfolio/index.html",
-    "main.b16dbca8.css.map": "/portfolio/static/css/main.b16dbca8.css.map",
-    "main.ff7093bf.js.map": "/portfolio/static/js/main.ff7093bf.js.map"
+    "main.95ae661d.css.map": "/portfolio/static/css/main.95ae661d.css.map",
+    "main.5aad791a.js.map": "/portfolio/static/js/main.5aad791a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b16dbca8.css",
-    "static/js/main.ff7093bf.js"
+    "static/css/main.95ae661d.css",
+    "static/js/main.5aad791a.js"
   ]
 }
