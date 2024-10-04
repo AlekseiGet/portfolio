@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0bda2a95.css",
-    "main.js": "/portfolio/static/js/main.7cc31f86.js",
+    "main.css": "/portfolio/static/css/main.6bfd7d8e.css",
+    "main.js": "/portfolio/static/js/main.65abf096.js",
+    "static/media/not_found.gif": "/portfolio/static/media/not_found.5241ded77ebec7c53302.gif",
     "static/media/indiiskii-ornament.png": "/portfolio/static/media/indiiskii-ornament.9bc342e011cbe26037a0.png",
     "static/media/Defi.png": "/portfolio/static/media/Defi.94d87b043588acca5246.png",
     "static/media/reasonableBody.png": "/portfolio/static/media/reasonableBody.d98d22d6607df492de52.png",
     "static/media/matrix.jpg": "/portfolio/static/media/matrix.81648f3c3cfcdfcd2297.jpg",
+    "static/media/system-failure.jpg": "/portfolio/static/media/system-failure.c498e2c3ec924aae3df6.jpg",
     "static/media/Bikert.png": "/portfolio/static/media/Bikert.3e53ee82f42083aeac45.png",
     "static/media/CryptoLodes.png": "/portfolio/static/media/CryptoLodes.fbd62e1f99db23cd328a.png",
     "static/media/Bike.png": "/portfolio/static/media/Bike.bbd5f273bb6fe409cbd5.png",
     "static/media/photo_2022-06-09_14-07-28.jpg": "/portfolio/static/media/photo_2022-06-09_14-07-28.cca9148a1ec94e557df6.jpg",
     "static/media/Gproger.png": "/portfolio/static/media/Gproger.67730dacb0a875c0fc36.png",
-    "static/media/error.jpg": "/portfolio/static/media/error.816aab739e9c7d37c6a9.jpg",
     "static/media/photo_2023-01-09_16-09-49.jpg": "/portfolio/static/media/photo_2023-01-09_16-09-49.a1100e86d8a223a321c2.jpg",
     "static/media/firstFlex.png": "/portfolio/static/media/firstFlex.9954fb823164e7be5a64.png",
     "static/media/EvolutionYoga.jpg": "/portfolio/static/media/EvolutionYoga.f11530d5168415f54e0e.jpg",
@@ -27,11 +28,11 @@
     "static/media/Sass.png": "/portfolio/static/media/Sass.1b596109852d4824d443.png",
     "static/media/32228.svg": "/portfolio/static/media/32228.4406feb1712a61ccdfd2452f8fa76c25.svg",
     "index.html": "/portfolio/index.html",
-    "main.0bda2a95.css.map": "/portfolio/static/css/main.0bda2a95.css.map",
-    "main.7cc31f86.js.map": "/portfolio/static/js/main.7cc31f86.js.map"
+    "main.6bfd7d8e.css.map": "/portfolio/static/css/main.6bfd7d8e.css.map",
+    "main.65abf096.js.map": "/portfolio/static/js/main.65abf096.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bda2a95.css",
-    "static/js/main.7cc31f86.js"
+    "static/css/main.6bfd7d8e.css",
+    "static/js/main.65abf096.js"
   ]
 }
